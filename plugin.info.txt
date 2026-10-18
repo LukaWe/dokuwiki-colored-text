@@ -1,0 +1,6 @@
+base   colorplus
+author LukaW
+date   2026-10-18
+name   colorplus plugin
+desc   Colored and highlighted text with over 200 colors, plus colored table cells, rows, columns and tables.
+url    https://github.com/LukaWe/dokuwiki-colored-text

@@ -1,0 +1,197 @@
+/*
+ * Table colors set by <tablecolor>, <colcolor> and <rowcolor>
+ *
+ * The tags put a class and a CSS variable with the color on the <table> or
+ * <tr> element, these rules apply it to all cells. All selectors have the
+ * same specificity, which is higher than the template's hover highlighting,
+ * so their order decides: row beats column beats table. <cellcolor> sets an
+ * inline style and beats all of them.
+ */
+.dokuwiki table.inline.plugin_colorplus_tablebg > * > tr > [class] { background-color: var(--plugin-colorplus-table-bg); }
+.dokuwiki table.inline.plugin_colorplus_tablefg > * > tr > [class] { color: var(--plugin-colorplus-table-fg); }
+
+/* columns 0 to 49 */
+.dokuwiki table.inline.plugin_colorplus_col0bg > * > tr > .col0 { background-color: var(--plugin-colorplus-col0-bg); }
+.dokuwiki table.inline.plugin_colorplus_col0fg > * > tr > .col0 { color: var(--plugin-colorplus-col0-fg); }
+.dokuwiki table.inline.plugin_colorplus_col1bg > * > tr > .col1 { background-color: var(--plugin-colorplus-col1-bg); }
+.dokuwiki table.inline.plugin_colorplus_col1fg > * > tr > .col1 { color: var(--plugin-colorplus-col1-fg); }
+.dokuwiki table.inline.plugin_colorplus_col2bg > * > tr > .col2 { background-color: var(--plugin-colorplus-col2-bg); }
+.dokuwiki table.inline.plugin_colorplus_col2fg > * > tr > .col2 { color: var(--plugin-colorplus-col2-fg); }
+.dokuwiki table.inline.plugin_colorplus_col3bg > * > tr > .col3 { background-color: var(--plugin-colorplus-col3-bg); }
+.dokuwiki table.inline.plugin_colorplus_col3fg > * > tr > .col3 { color: var(--plugin-colorplus-col3-fg); }
+.dokuwiki table.inline.plugin_colorplus_col4bg > * > tr > .col4 { background-color: var(--plugin-colorplus-col4-bg); }
+.dokuwiki table.inline.plugin_colorplus_col4fg > * > tr > .col4 { color: var(--plugin-colorplus-col4-fg); }
+.dokuwiki table.inline.plugin_colorplus_col5bg > * > tr > .col5 { background-color: var(--plugin-colorplus-col5-bg); }
+.dokuwiki table.inline.plugin_colorplus_col5fg > * > tr > .col5 { color: var(--plugin-colorplus-col5-fg); }
+.dokuwiki table.inline.plugin_colorplus_col6bg > * > tr > .col6 { background-color: var(--plugin-colorplus-col6-bg); }
+.dokuwiki table.inline.plugin_colorplus_col6fg > * > tr > .col6 { color: var(--plugin-colorplus-col6-fg); }
+.dokuwiki table.inline.plugin_colorplus_col7bg > * > tr > .col7 { background-color: var(--plugin-colorplus-col7-bg); }
+.dokuwiki table.inline.plugin_colorplus_col7fg > * > tr > .col7 { color: var(--plugin-colorplus-col7-fg); }
+.dokuwiki table.inline.plugin_colorplus_col8bg > * > tr > .col8 { background-color: var(--plugin-colorplus-col8-bg); }
+.dokuwiki table.inline.plugin_colorplus_col8fg > * > tr > .col8 { color: var(--plugin-colorplus-col8-fg); }
+.dokuwiki table.inline.plugin_colorplus_col9bg > * > tr > .col9 { background-color: var(--plugin-colorplus-col9-bg); }
+.dokuwiki table.inline.plugin_colorplus_col9fg > * > tr > .col9 { color: var(--plugin-colorplus-col9-fg); }
+.dokuwiki table.inline.plugin_colorplus_col10bg > * > tr > .col10 { background-color: var(--plugin-colorplus-col10-bg); }
+.dokuwiki table.inline.plugin_colorplus_col10fg > * > tr > .col10 { color: var(--plugin-colorplus-col10-fg); }
+.dokuwiki table.inline.plugin_colorplus_col11bg > * > tr > .col11 { background-color: var(--plugin-colorplus-col11-bg); }
+.dokuwiki table.inline.plugin_colorplus_col11fg > * > tr > .col11 { color: var(--plugin-colorplus-col11-fg); }
+.dokuwiki table.inline.plugin_colorplus_col12bg > * > tr > .col12 { background-color: var(--plugin-colorplus-col12-bg); }
+.dokuwiki table.inline.plugin_colorplus_col12fg > * > tr > .col12 { color: var(--plugin-colorplus-col12-fg); }
+.dokuwiki table.inline.plugin_colorplus_col13bg > * > tr > .col13 { background-color: var(--plugin-colorplus-col13-bg); }
+.dokuwiki table.inline.plugin_colorplus_col13fg > * > tr > .col13 { color: var(--plugin-colorplus-col13-fg); }
+.dokuwiki table.inline.plugin_colorplus_col14bg > * > tr > .col14 { background-color: var(--plugin-colorplus-col14-bg); }
+.dokuwiki table.inline.plugin_colorplus_col14fg > * > tr > .col14 { color: var(--plugin-colorplus-col14-fg); }
+.dokuwiki table.inline.plugin_colorplus_col15bg > * > tr > .col15 { background-color: var(--plugin-colorplus-col15-bg); }
+.dokuwiki table.inline.plugin_colorplus_col15fg > * > tr > .col15 { color: var(--plugin-colorplus-col15-fg); }
+.dokuwiki table.inline.plugin_colorplus_col16bg > * > tr > .col16 { background-color: var(--plugin-colorplus-col16-bg); }
+.dokuwiki table.inline.plugin_colorplus_col16fg > * > tr > .col16 { color: var(--plugin-colorplus-col16-fg); }
+.dokuwiki table.inline.plugin_colorplus_col17bg > * > tr > .col17 { background-color: var(--plugin-colorplus-col17-bg); }
+.dokuwiki table.inline.plugin_colorplus_col17fg > * > tr > .col17 { color: var(--plugin-colorplus-col17-fg); }
+.dokuwiki table.inline.plugin_colorplus_col18bg > * > tr > .col18 { background-color: var(--plugin-colorplus-col18-bg); }
+.dokuwiki table.inline.plugin_colorplus_col18fg > * > tr > .col18 { color: var(--plugin-colorplus-col18-fg); }
+.dokuwiki table.inline.plugin_colorplus_col19bg > * > tr > .col19 { background-color: var(--plugin-colorplus-col19-bg); }
+.dokuwiki table.inline.plugin_colorplus_col19fg > * > tr > .col19 { color: var(--plugin-colorplus-col19-fg); }
+.dokuwiki table.inline.plugin_colorplus_col20bg > * > tr > .col20 { background-color: var(--plugin-colorplus-col20-bg); }
+.dokuwiki table.inline.plugin_colorplus_col20fg > * > tr > .col20 { color: var(--plugin-colorplus-col20-fg); }
+.dokuwiki table.inline.plugin_colorplus_col21bg > * > tr > .col21 { background-color: var(--plugin-colorplus-col21-bg); }
+.dokuwiki table.inline.plugin_colorplus_col21fg > * > tr > .col21 { color: var(--plugin-colorplus-col21-fg); }
+.dokuwiki table.inline.plugin_colorplus_col22bg > * > tr > .col22 { background-color: var(--plugin-colorplus-col22-bg); }
+.dokuwiki table.inline.plugin_colorplus_col22fg > * > tr > .col22 { color: var(--plugin-colorplus-col22-fg); }
+.dokuwiki table.inline.plugin_colorplus_col23bg > * > tr > .col23 { background-color: var(--plugin-colorplus-col23-bg); }
+.dokuwiki table.inline.plugin_colorplus_col23fg > * > tr > .col23 { color: var(--plugin-colorplus-col23-fg); }
+.dokuwiki table.inline.plugin_colorplus_col24bg > * > tr > .col24 { background-color: var(--plugin-colorplus-col24-bg); }
+.dokuwiki table.inline.plugin_colorplus_col24fg > * > tr > .col24 { color: var(--plugin-colorplus-col24-fg); }
+.dokuwiki table.inline.plugin_colorplus_col25bg > * > tr > .col25 { background-color: var(--plugin-colorplus-col25-bg); }
+.dokuwiki table.inline.plugin_colorplus_col25fg > * > tr > .col25 { color: var(--plugin-colorplus-col25-fg); }
+.dokuwiki table.inline.plugin_colorplus_col26bg > * > tr > .col26 { background-color: var(--plugin-colorplus-col26-bg); }
+.dokuwiki table.inline.plugin_colorplus_col26fg > * > tr > .col26 { color: var(--plugin-colorplus-col26-fg); }
+.dokuwiki table.inline.plugin_colorplus_col27bg > * > tr > .col27 { background-color: var(--plugin-colorplus-col27-bg); }
+.dokuwiki table.inline.plugin_colorplus_col27fg > * > tr > .col27 { color: var(--plugin-colorplus-col27-fg); }
+.dokuwiki table.inline.plugin_colorplus_col28bg > * > tr > .col28 { background-color: var(--plugin-colorplus-col28-bg); }
+.dokuwiki table.inline.plugin_colorplus_col28fg > * > tr > .col28 { color: var(--plugin-colorplus-col28-fg); }
+.dokuwiki table.inline.plugin_colorplus_col29bg > * > tr > .col29 { background-color: var(--plugin-colorplus-col29-bg); }
+.dokuwiki table.inline.plugin_colorplus_col29fg > * > tr > .col29 { color: var(--plugin-colorplus-col29-fg); }
+.dokuwiki table.inline.plugin_colorplus_col30bg > * > tr > .col30 { background-color: var(--plugin-colorplus-col30-bg); }
+.dokuwiki table.inline.plugin_colorplus_col30fg > * > tr > .col30 { color: var(--plugin-colorplus-col30-fg); }
+.dokuwiki table.inline.plugin_colorplus_col31bg > * > tr > .col31 { background-color: var(--plugin-colorplus-col31-bg); }
+.dokuwiki table.inline.plugin_colorplus_col31fg > * > tr > .col31 { color: var(--plugin-colorplus-col31-fg); }
+.dokuwiki table.inline.plugin_colorplus_col32bg > * > tr > .col32 { background-color: var(--plugin-colorplus-col32-bg); }
+.dokuwiki table.inline.plugin_colorplus_col32fg > * > tr > .col32 { color: var(--plugin-colorplus-col32-fg); }
+.dokuwiki table.inline.plugin_colorplus_col33bg > * > tr > .col33 { background-color: var(--plugin-colorplus-col33-bg); }
+.dokuwiki table.inline.plugin_colorplus_col33fg > * > tr > .col33 { color: var(--plugin-colorplus-col33-fg); }
+.dokuwiki table.inline.plugin_colorplus_col34bg > * > tr > .col34 { background-color: var(--plugin-colorplus-col34-bg); }
+.dokuwiki table.inline.plugin_colorplus_col34fg > * > tr > .col34 { color: var(--plugin-colorplus-col34-fg); }
+.dokuwiki table.inline.plugin_colorplus_col35bg > * > tr > .col35 { background-color: var(--plugin-colorplus-col35-bg); }
+.dokuwiki table.inline.plugin_colorplus_col35fg > * > tr > .col35 { color: var(--plugin-colorplus-col35-fg); }
+.dokuwiki table.inline.plugin_colorplus_col36bg > * > tr > .col36 { background-color: var(--plugin-colorplus-col36-bg); }
+.dokuwiki table.inline.plugin_colorplus_col36fg > * > tr > .col36 { color: var(--plugin-colorplus-col36-fg); }
+.dokuwiki table.inline.plugin_colorplus_col37bg > * > tr > .col37 { background-color: var(--plugin-colorplus-col37-bg); }
+.dokuwiki table.inline.plugin_colorplus_col37fg > * > tr > .col37 { color: var(--plugin-colorplus-col37-fg); }
+.dokuwiki table.inline.plugin_colorplus_col38bg > * > tr > .col38 { background-color: var(--plugin-colorplus-col38-bg); }
+.dokuwiki table.inline.plugin_colorplus_col38fg > * > tr > .col38 { color: var(--plugin-colorplus-col38-fg); }
+.dokuwiki table.inline.plugin_colorplus_col39bg > * > tr > .col39 { background-color: var(--plugin-colorplus-col39-bg); }
+.dokuwiki table.inline.plugin_colorplus_col39fg > * > tr > .col39 { color: var(--plugin-colorplus-col39-fg); }
+.dokuwiki table.inline.plugin_colorplus_col40bg > * > tr > .col40 { background-color: var(--plugin-colorplus-col40-bg); }
+.dokuwiki table.inline.plugin_colorplus_col40fg > * > tr > .col40 { color: var(--plugin-colorplus-col40-fg); }
+.dokuwiki table.inline.plugin_colorplus_col41bg > * > tr > .col41 { background-color: var(--plugin-colorplus-col41-bg); }
+.dokuwiki table.inline.plugin_colorplus_col41fg > * > tr > .col41 { color: var(--plugin-colorplus-col41-fg); }
+.dokuwiki table.inline.plugin_colorplus_col42bg > * > tr > .col42 { background-color: var(--plugin-colorplus-col42-bg); }
+.dokuwiki table.inline.plugin_colorplus_col42fg > * > tr > .col42 { color: var(--plugin-colorplus-col42-fg); }
+.dokuwiki table.inline.plugin_colorplus_col43bg > * > tr > .col43 { background-color: var(--plugin-colorplus-col43-bg); }
+.dokuwiki table.inline.plugin_colorplus_col43fg > * > tr > .col43 { color: var(--plugin-colorplus-col43-fg); }
+.dokuwiki table.inline.plugin_colorplus_col44bg > * > tr > .col44 { background-color: var(--plugin-colorplus-col44-bg); }
+.dokuwiki table.inline.plugin_colorplus_col44fg > * > tr > .col44 { color: var(--plugin-colorplus-col44-fg); }
+.dokuwiki table.inline.plugin_colorplus_col45bg > * > tr > .col45 { background-color: var(--plugin-colorplus-col45-bg); }
+.dokuwiki table.inline.plugin_colorplus_col45fg > * > tr > .col45 { color: var(--plugin-colorplus-col45-fg); }
+.dokuwiki table.inline.plugin_colorplus_col46bg > * > tr > .col46 { background-color: var(--plugin-colorplus-col46-bg); }
+.dokuwiki table.inline.plugin_colorplus_col46fg > * > tr > .col46 { color: var(--plugin-colorplus-col46-fg); }
+.dokuwiki table.inline.plugin_colorplus_col47bg > * > tr > .col47 { background-color: var(--plugin-colorplus-col47-bg); }
+.dokuwiki table.inline.plugin_colorplus_col47fg > * > tr > .col47 { color: var(--plugin-colorplus-col47-fg); }
+.dokuwiki table.inline.plugin_colorplus_col48bg > * > tr > .col48 { background-color: var(--plugin-colorplus-col48-bg); }
+.dokuwiki table.inline.plugin_colorplus_col48fg > * > tr > .col48 { color: var(--plugin-colorplus-col48-fg); }
+.dokuwiki table.inline.plugin_colorplus_col49bg > * > tr > .col49 { background-color: var(--plugin-colorplus-col49-bg); }
+.dokuwiki table.inline.plugin_colorplus_col49fg > * > tr > .col49 { color: var(--plugin-colorplus-col49-fg); }
+
+.dokuwiki table.inline > * > tr.plugin_colorplus_rowbg > [class] { background-color: var(--plugin-colorplus-row-bg); }
+.dokuwiki table.inline > * > tr.plugin_colorplus_rowfg > [class] { color: var(--plugin-colorplus-row-fg); }
+
+/*
+ * Color pickers in the editor toolbar
+ *
+ * The pickers sit inside the toolbar, so the button selectors need to beat
+ * the template's ".dokuwiki div.toolbar button.toolbutton" rules.
+ */
+div.picker.pk_plugin_colorplus {
+    width: auto;
+    max-width: none !important; /* pickerToggle() limits pickers to 300px */
+    padding: 3px;
+    z-index: 100; /* stay above the page tools */
+}
+div.picker.pk_plugin_colorplus:not([hidden]) {
+    display: grid;
+    grid-template-columns: repeat(19, auto);
+    gap: 1px;
+}
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_btn {
+    margin: 0;
+    padding: 1px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background: transparent;
+    line-height: 1;
+    cursor: pointer;
+}
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_btn:hover,
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_btn:focus {
+    border-color: currentColor;
+}
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_btn img {
+    display: inline-block;
+    vertical-align: middle;
+}
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_swatch img {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .25);
+}
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_newrow {
+    grid-column-start: 1;
+}
+/* buttons with a text label: scope selection and custom color */
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_wide {
+    grid-column-end: span 4;
+    padding-right: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 85%;
+}
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_wide img {
+    margin-right: 3px;
+}
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_active {
+    border-color: currentColor;
+    background-color: rgba(128, 128, 128, .25);
+}
+/* separates the scope selection from the colors */
+div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_scope {
+    margin-bottom: 3px;
+}
+
+/* hidden <input type="color"> that opens the browser's color dialog */
+.plugin_colorplus_input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media (max-width: 480px) {
+    div.picker.pk_plugin_colorplus button.toolbutton.plugin_colorplus_swatch img {
+        width: 12px;
+        height: 12px;
+    }
+}

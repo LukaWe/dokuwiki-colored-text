@@ -1,0 +1,26 @@
+name: DokuWiki Tests
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '17 5 1 * *'
+
+jobs:
+  create-matrix:
+    uses: dokuwiki/github-action/.github/workflows/matrix.yml@main
+
+  test-stable:
+    needs: create-matrix
+    uses: dokuwiki/github-action/.github/workflows/test.yml@main
+    with:
+      matrix-json: ${{ needs.create-matrix.outputs.stable_matrix }}
+
+  test-master:
+    needs: create-matrix
+    uses: dokuwiki/github-action/.github/workflows/test.yml@main
+    with:
+      matrix-json: ${{ needs.create-matrix.outputs.master_matrix }}
+
+  code-style:
+    uses: dokuwiki/github-action/.github/workflows/cs.yml@main

@@ -1,0 +1,5 @@
+# not needed in the zip files the extension manager installs
+/.gitattributes export-ignore
+/.github export-ignore
+/_test export-ignore
+/screenshots export-ignore
