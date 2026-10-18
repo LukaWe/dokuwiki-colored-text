@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: '17 5 1 * *'
 
+# the reusable DokuWiki workflows ask for these
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   create-matrix:
     uses: dokuwiki/github-action/.github/workflows/matrix.yml@main
